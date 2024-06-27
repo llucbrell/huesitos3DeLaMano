@@ -419,8 +419,8 @@ const questions = [
 
 
 
-const totalQuestions = 5; // Número total de preguntas a formular
-const correctAnswersToWin = 1; // Número de respuestas correctas necesarias para ganar
+const totalQuestions = 15; // Número total de preguntas a formular
+const correctAnswersToWin = 12; // Número de respuestas correctas necesarias para ganar
 const accessLimit = 100; // Límite de accesos
 let askedQuestions = JSON.parse(localStorage.getItem('askedQuestions')) || [];
 let score = 0;
